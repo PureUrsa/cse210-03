@@ -30,3 +30,17 @@ if rules == 'y':
  elif rules == 'n':
   print("Right to it then! Press 'enter' to begin.")
   input(" ")
+
+  
+  
+  
+  
+  
+        ____   ~~~~~~~   ____
+   /  |    |  _V~~ ~~V_  |    |  \
+   \ _\_~~ \             / ~~_/_ /
+             \         /
+               \     /
+                 \O/
+                  I
+                 / \
