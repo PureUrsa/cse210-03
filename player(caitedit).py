@@ -13,7 +13,7 @@ elif play == 'n':
 
 print("Would you like to hear the rules of the game?")
 rules = input("(y/n): ").lower()
- while rules != 'y' and rules != 'n':
+while rules != 'y' and rules != 'n':
   print("Sorry, please pick one of the options.")
   rules = input("(y/n): ").lower()
 if rules == 'y':
