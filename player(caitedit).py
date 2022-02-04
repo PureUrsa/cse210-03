@@ -1,2 +1,5 @@
 print("Welcome to JUMPER!")
-input("Would you like to play?")
+print("Would you like to play?")
+play = input("(y/n): ").lower()
+while 
+
