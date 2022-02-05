@@ -40,11 +40,7 @@ if rules == 'y':
   print("Right to it then! Press 'enter' to begin.")
   input(" ")
 
-  
-  #Testing to see if this pushes
-  again!!!
 
-  agin?
   
   
         ____   ~~~~~~~   ____
