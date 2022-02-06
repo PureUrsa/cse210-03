@@ -1,3 +1,16 @@
+#might add later, but code first
+
+#def print_1(text):
+    #words = text
+    #time.sleep(.8)
+    #for char in words:
+        #time.sleep(0.03)
+        #sys.stdout.write(char)
+       #sys.stdout.flush()
+   #print('')
+    #prints out the words slower, making it readable to user. Make sure to use the 'print_1' instead of 'print'
+
+
 
 class Player:
     """
@@ -6,7 +19,7 @@ class Player:
     def __init__(self) -> None:
         pass
     
-    
+#starting off with simple rules and greetings
 print("Welcome to JUMPER!")
 print("Would you like to play?")
 play = input("(y/n): ").lower()
@@ -41,6 +54,29 @@ if rules == 'y':
   input(" ")
 
   
+
+
+#this needs some SERIOUS HELP!!! The game itself needs to be intagrated and I doubt I have the brains needed for that kind of shenanagans
+
+
+print("Guess a letter!")
+letter_1 = input("(a-z): ").lower()
+
+if letter_1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
