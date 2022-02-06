@@ -10,7 +10,7 @@
    #print('')
     #prints out the words slower, making it readable to user. Make sure to use the 'print_1' instead of 'print'
 
-
+parachute_list[full]
 
 class Player:
     """
@@ -57,12 +57,22 @@ if rules == 'y':
 
 
 #this needs some SERIOUS HELP!!! The game itself needs to be intagrated and I doubt I have the brains needed for that kind of shenanagans
+#Also I can't seem to figure out how to keep it going 
 
+while parachute != 'minus_five':
+    print("Guess a letter!")
+    letter_1 = input("(a-z): ").lower()
+    if (letter_1 in letters):
+        #letters = the list I made in the other class
+        print("That letter is in this word!")
 
-print("Guess a letter!")
-letter_1 = input("(a-z): ").lower()
+    else:
+        print("Sorry, that letter is not in this word.")
+        parachute_list.remove(full)
+        parachute_list.append(minus_one)
+        print("Guess another letter.")
 
-if letter_1
+    
 
 
 
@@ -83,7 +93,7 @@ if letter_1
 
 
   #this is just for the parachute I designed, just for giggles :D)
-  if parachute == 'full':
+if 'full' in parachute_list:
     print('____   ~~~~~~~   ____')
     print("/  |    |  _V~~ ~~V_  |    |  \ ")
     print("\ _\_~~ \             / ~~_/_ / ")
@@ -93,7 +103,7 @@ if letter_1
     print("I")
     print("/ \ ")
 
-elif parachute == 'minus_one':
+elif 'minus_one' in parachute_list:
     print("/  |    |  _V~~ ~~V_  |    |  \ ")
     print("\ _\_~~ \             / ~~_/_ / ")
     print("\         /")
@@ -102,7 +112,7 @@ elif parachute == 'minus_one':
     print("I")
     print("/ \ ")
 
-elif parachute == 'minus_two':
+elif 'minus_two' in parachute_list:
     print("\ _\_~~ \             / ~~_/_ / ")
     print("\         /")
     print("\     /")
@@ -111,7 +121,7 @@ elif parachute == 'minus_two':
     print("/ \ ")
   
 
-elif parachute == 'minus_three':
+elif 'minus_three' in parachute_list:
     print("\         /")
     print("\     /")
     print("\O/")
@@ -120,14 +130,14 @@ elif parachute == 'minus_three':
 
 
 
-elif parachute == 'minus_four':
+elif 'minus_four' in parachute_list:
     print("\     /")
     print("\O/")
     print("I")
     print("/ \ ")
 
 
-elif parachute == 'minus_five':
+elif 'minus_five' in parachute_list:
     print("x")
     print("/I\ ")
     print("/ \ ")
