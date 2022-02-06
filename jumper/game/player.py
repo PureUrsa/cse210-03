@@ -41,15 +41,57 @@ if rules == 'y':
   input(" ")
 
   
+
+
+
+
+
+  #this is just for the parachute I designed, just for giggles :D)
+  if parachute == 'full':
+    print('____   ~~~~~~~   ____')
+    print("/  |    |  _V~~ ~~V_  |    |  \ ")
+    print("\ _\_~~ \             / ~~_/_ / ")
+    print("\         /")
+    print("\     /")
+    print("\O/")
+    print("I")
+    print("/ \ ")
+
+elif parachute == 'minus_one':
+    print("/  |    |  _V~~ ~~V_  |    |  \ ")
+    print("\ _\_~~ \             / ~~_/_ / ")
+    print("\         /")
+    print("\     /")
+    print("\O/")
+    print("I")
+    print("/ \ ")
+
+elif parachute == 'minus_two':
+    print("\ _\_~~ \             / ~~_/_ / ")
+    print("\         /")
+    print("\     /")
+    print("\O/")
+    print("I")
+    print("/ \ ")
   
-  
-  
-  
-        ____   ~~~~~~~   ____
-   /  |    |  _V~~ ~~V_  |    |  \
-   \ _\_~~ \             / ~~_/_ /
-             \         /
-               \     /
-                 \O/
-                  I
-                 / \
+
+elif parachute == 'minus_three':
+    print("\         /")
+    print("\     /")
+    print("\O/")
+    print("I")
+    print("/ \ ")  
+
+
+
+elif parachute == 'minus_four':
+    print("\     /")
+    print("\O/")
+    print("I")
+    print("/ \ ")
+
+
+elif parachute == 'minus_five':
+    print("x")
+    print("/I\ ")
+    print("/ \ ")
