@@ -1,4 +1,3 @@
-
 import random
 
 class Puzzle:
@@ -7,3 +6,14 @@ class Puzzle:
     """
     def __init__(self) -> None:
         pass
+    
+    
+    
+    words = [plant, beach, dance, house]
+    #I think its a good idea to keep this at five letters for simplicity
+    random.choice(words)
+    
+    
+    
+    
+    
