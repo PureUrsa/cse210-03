@@ -59,34 +59,68 @@ if rules == 'y':
 #this needs some SERIOUS HELP!!! The game itself needs to be intagrated and I doubt I have the brains needed for that kind of shenanagans
 #Also I can't seem to figure out how to keep it going 
 
-while parachute != 'minus_five':
+#while word not fully guessed yet:
     print("Guess a letter!")
     letter_1 = input("(a-z): ").lower()
     if (letter_1 in letters):
         #letters = the list I made in the other class
         print("That letter is in this word!")
-
     else:
         print("Sorry, that letter is not in this word.")
         parachute_list.remove(full)
         parachute_list.append(minus_one)
-        print("Guess another letter.")
+        
+        #-
+        
+        print("Guess a letter!")
+        letter_2 = input("(a-z): ").lower()
+        if (letter_2 in letters):
+            #letters = the list I made in the other class
+            print("That letter is in this word!")
+        else:
+            print("Sorry, that letter is not in this word.")
+            parachute_list.remove(minus_one)
+            parachute_list.append(minus_two)
+            
+            #-
+            
+            print("Guess a letter!")
+            letter_3 = input("(a-z): ").lower()
+            if (letter_3 in letters):
+                #letters = the list I made in the other class
+                print("That letter is in this word!")
+            else:
+                print("Sorry, that letter is not in this word.")
+                parachute_list.remove(minus_two)
+                parachute_list.append(minus_three)
+                            
+                #-
+
+                print("Guess a letter!")
+                letter_3 = input("(a-z): ").lower()
+                if (letter_3 in letters):
+                    #letters = the list I made in the other class
+                    print("That letter is in this word!")
+                else:
+                    print("Sorry, that letter is not in this word.")
+                    parachute_list.remove(minus_three)
+                    parachute_list.append(minus_four)
+                    
+                    #-
+
+                    print("Guess a letter!")
+                    letter_3 = input("(a-z): ").lower()
+                    if (letter_3 in letters):
+                        #letters = the list I made in the other class
+                        print("That letter is in this word!")
+                    else:
+                        print("Sorry, that letter is not in this word.")
+                        parachute_list.remove(minus_four)
+                        parachute_list.append(minus_five)
+                
+
 
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
